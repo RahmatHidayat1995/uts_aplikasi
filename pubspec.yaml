@@ -1,0 +1,33 @@
+name: uts_aplikasi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.1
+
+  #sdk: '>=3.0.0 <4.0.0' # Sesuaikan dengan versi SDK Dart yang ingin Anda gunakan
+  #flutter: ">=3.0.0" # Atau sesuai dengan versi Flutter Anda
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0 
+  url_launcher: ^6.2.0 
+  # --- TAMBAHKAN INI ---
+  flutter_html: ^3.0.0 
+  # --------------------
+  provider: ^6.0.0
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  # --- TAMBAHKAN INI ---
+  assets:
+    - assets/
+  # --------------------
